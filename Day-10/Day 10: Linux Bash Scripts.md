@@ -52,14 +52,14 @@ ssh clint@172.16.238.16
 
 ### 4️⃣ Create the Backup Script
 Create the script file:
-```
+
 nano /scripts/beta_backup.sh
 Paste the following content:
 
 ```
 #!/bin/bash
 
-# Variables
+'# Variables
 SRC_DIR="/var/www/html/beta"
 BACKUP_NAME="xfusioncorp_beta.zip"
 LOCAL_BACKUP_DIR="/backup"
@@ -67,7 +67,7 @@ REMOTE_USER="clint"
 REMOTE_HOST="172.16.238.16"
 REMOTE_BACKUP_DIR="/backup"
 
-# Create zip archive
+'# Create zip archive
 zip -r "${LOCAL_BACKUP_DIR}/${BACKUP_NAME}" "${SRC_DIR}"
 
 # Copy to remote backup server
