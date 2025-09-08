@@ -1,0 +1,112 @@
+# ✅ Day 10: Website Backup Script - KodeKloud 100 Days of DevOps Challenge
+
+The task was to create a Bash script to automate the backup of a static website running on App Server 2 and securely transfer it to the Nautilus Backup Server.
+
+---
+
+## 📋 Task Requirements
+
+1. Create a script `/scripts/beta_backup.sh`.
+2. Zip the `/var/www/html/beta` directory into `/backup/xfusioncorp_beta.zip`.
+3. Copy the archive to the **Nautilus Backup Server** at `/backup/`.
+4. The script must:
+   - Be runnable by a regular user (e.g., `steve`)
+   - Use **passwordless SSH** for file transfer
+   - Not include any `sudo` commands
+5. The `zip` utility must be **installed manually** (outside the script).
+
+---
+
+## 🛠️ Step-by-Step Process
+
+### 1️⃣ Install `zip` (as root or with sudo)
+
+```bash
+sudo yum install zip -y    # For RHEL/CentOS
+# or
+sudo apt install zip -y    # For Ubuntu/Debian
+2️⃣ Prepare Required Directories
+bash
+Copy code
+sudo mkdir -p /scripts /backup
+sudo chown steve:steve /scripts /backup
+sudo chmod 755 /scripts /backup
+3️⃣ Setup Passwordless SSH
+Switch to the user steve:
+
+```
+sudo su - steve
+Generate SSH key:
+
+ssh-keygen -t rsa -b 2048
+Copy SSH key to Nautilus Backup Server:
+
+ssh-copy-id clint@172.16.238.16
+Test the connection:
+
+ssh clint@172.16.238.16
+# ✅ Should NOT ask for password
+
+4️⃣ Create the Backup Script
+Create the script file:
+```
+
+nano /scripts/beta_backup.sh
+Paste the following content:
+
+```
+#!/bin/bash
+
+# Variables
+SRC_DIR="/var/www/html/beta"
+BACKUP_NAME="xfusioncorp_beta.zip"
+LOCAL_BACKUP_DIR="/backup"
+REMOTE_USER="clint"
+REMOTE_HOST="172.16.238.16"
+REMOTE_BACKUP_DIR="/backup"
+
+# Create zip archive
+zip -r "${LOCAL_BACKUP_DIR}/${BACKUP_NAME}" "${SRC_DIR}"
+
+# Copy to remote backup server
+scp "${LOCAL_BACKUP_DIR}/${BACKUP_NAME}" "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_BACKUP_DIR}"
+```
+
+Save and exit.
+
+5️⃣ Make the Script Executable
+```
+chmod +x /scripts/beta_backup.sh
+```
+
+6️⃣ Run the Script as steve
+```
+/scripts/beta_backup.sh
+```
+
+✅ It should:
+Create /backup/xfusioncorp_beta.zip
+
+Copy it to /backup/ on the Nautilus Backup Server
+
+✅ Verification
+Check archive on App Server 2:
+```
+ls -l /backup/xfusioncorp_beta.zip
+```
+Check file on Nautilus Backup Server:
+
+```
+ssh clint@172.16.238.16
+ls -l /backup/xfusioncorp_beta.zip
+```
+---
+
+🔒 Notes
+No sudo is used in the script.
+
+Ownership and permissions were set up properly.
+
+SSH key-based authentication was configured for automation.
+
+Script is reusable and secure.
