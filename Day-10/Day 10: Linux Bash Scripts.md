@@ -25,21 +25,21 @@ The task was to create a Bash script to automate the backup of a static website 
 sudo yum install zip -y    # For RHEL/CentOS
 # or
 sudo apt install zip -y    # For Ubuntu/Debian
-
+```
 ### 2️⃣ Prepare Required Directories
 
 ```bash
 sudo mkdir -p /scripts /backup
 sudo chown steve:steve /scripts /backup
 sudo chmod 755 /scripts /backup
-
+```
 ### 3️⃣ Setup Passwordless SSH
 Switch to the user steve:
 
 ```bash
 sudo su - steve
-Generate SSH key:
 
+Generate SSH key:
 ssh-keygen -t rsa -b 2048
 Copy SSH key to Nautilus Backup Server:
 
@@ -49,10 +49,11 @@ Test the connection:
 ssh clint@172.16.238.16
 # ✅ Should NOT ask for password
 
+```
+
 ### 4️⃣ Create the Backup Script
 Create the script file:
 ```
-
 nano /scripts/beta_backup.sh
 Paste the following content:
 
