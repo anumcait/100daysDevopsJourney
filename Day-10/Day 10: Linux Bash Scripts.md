@@ -1,10 +1,10 @@
-# ✅ Day 10: Website Backup Script - KodeKloud 100 Days of DevOps Challenge
+## ✅ Day 10: Website Backup Script - KodeKloud 100 Days of DevOps Challenge
 
 The task was to create a Bash script to automate the backup of a static website running on App Server 2 and securely transfer it to the Nautilus Backup Server.
 
 ---
 
-## 📋 Task Requirements
+### 📋 Task Requirements
 
 1. Create a script `/scripts/beta_backup.sh`.
 2. Zip the `/var/www/html/beta` directory into `/backup/xfusioncorp_beta.zip`.
@@ -17,7 +17,7 @@ The task was to create a Bash script to automate the backup of a static website 
 
 ---
 
-## 🛠️ Step-by-Step Process
+### 🛠️ Step-by-Step Process
 
 ### 1️⃣ Install `zip` (as root or with sudo)
 
