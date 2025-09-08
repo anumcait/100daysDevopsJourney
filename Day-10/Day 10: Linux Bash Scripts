@@ -25,9 +25,8 @@ The task was to create a Bash script to automate the backup of a static website 
 sudo yum install zip -y    # For RHEL/CentOS
 # or
 sudo apt install zip -y    # For Ubuntu/Debian
+
 2️⃣ Prepare Required Directories
-bash
-Copy code
 sudo mkdir -p /scripts /backup
 sudo chown steve:steve /scripts /backup
 sudo chmod 755 /scripts /backup
