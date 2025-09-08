@@ -26,14 +26,14 @@ sudo yum install zip -y    # For RHEL/CentOS
 # or
 sudo apt install zip -y    # For Ubuntu/Debian
 
-2️⃣ Prepare Required Directories
+### 2️⃣ Prepare Required Directories
 
 ```bash
 sudo mkdir -p /scripts /backup
 sudo chown steve:steve /scripts /backup
 sudo chmod 755 /scripts /backup
 
-3️⃣ Setup Passwordless SSH
+### 3️⃣ Setup Passwordless SSH
 Switch to the user steve:
 
 ```bash
@@ -49,7 +49,7 @@ Test the connection:
 ssh clint@172.16.238.16
 # ✅ Should NOT ask for password
 
-4️⃣ Create the Backup Script
+### 4️⃣ Create the Backup Script
 Create the script file:
 ```
 
