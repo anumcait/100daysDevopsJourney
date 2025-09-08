@@ -34,9 +34,8 @@ sudo chown steve:steve /scripts /backup
 sudo chmod 755 /scripts /backup
 ```
 ### 3️⃣ Setup Passwordless SSH
-Switch to the user steve:
-
 ```bash
+Switch to the user steve:
 sudo su - steve
 
 Generate SSH key:
