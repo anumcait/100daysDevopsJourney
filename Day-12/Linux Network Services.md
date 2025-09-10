@@ -95,7 +95,7 @@ Received a successful HTTP response confirming the Apache service was reachable.
 
 No changes were made to the existing web content or security settings, ensuring compliance with task requirements.
 
-- Tools and Commands Used
+## Tools and Commands Used
 - Tool/Command	Purpose
 - systemctl	Manage services (check status, start, stop)
 - journalctl	View system and service logs
