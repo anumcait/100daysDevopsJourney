@@ -96,10 +96,11 @@ Received a successful HTTP response confirming the Apache service was reachable.
 No changes were made to the existing web content or security settings, ensuring compliance with task requirements.
 
 ## Tools and Commands Used
-- Tool/Command	Purpose
-- systemctl	Manage services (check status, start, stop)
-- journalctl	View system and service logs
-- netstat / ss	Check open ports and process bindings
-- firewall-cmd	Manage firewall rules
-- curl	Test HTTP connectivity from jump host
-- grep	Search text within files and outputs
+|Tool/Command|	Purpose|
+|------------|---------|
+|systemctl|	Manage services (check status, start, stop)|
+|journalctl|	View system and service logs|
+|netstat|	Check open ports and process bindings|
+|firewall-cmd|	Manage firewall rules|
+|curl|	Test HTTP connectivity from jump host|
+|grep|	Search text within files and outputs|
