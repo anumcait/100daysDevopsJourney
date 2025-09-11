@@ -49,7 +49,7 @@ sudo iptables -L -n -v
 
 I confirmed that:
 
-- The LBR host (with IP 192.168.1.100) was able to access port 8086.
+- The LBR host (with IP <LBR_HOST_IP_ADDRESS>) was able to access port 8086.
 
 - All other hosts were blocked from accessing port 8086.
 
