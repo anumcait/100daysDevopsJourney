@@ -28,7 +28,8 @@ sudo netstat -tuln | grep 8082
 
 You’ll see output like:
 
-COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+`COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME`
+
 someproc  1234 root   12u  IPv4 123456      0t0  TCP *:8082 (LISTEN)
 
 **3. **Kill the process occupying port 8082
@@ -40,7 +41,7 @@ sudo kill -9 <PID>
 
 Replace <PID> with the actual process ID (e.g., 1234).
 
-You can confirm it has been killed by running the lsof or netstat command again.
+`You can confirm it has been killed by running the lsof or netstat command again.`
 
 4. Restart Apache HTTPD
 
