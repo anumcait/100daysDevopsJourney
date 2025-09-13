@@ -43,3 +43,99 @@ The system admins team of xFusionCorp Industries needs to deploy a new applicati
 sudo yum install nginx -y         # CentOS/RHEL
 # or
 sudo apt update && sudo apt install nginx -y   # Ubuntu/Debian
+```
+### 2️⃣ Create SSL Directory & Move Certs
+```bash
+sudo mkdir -p /etc/nginx/ssl
+sudo mv /tmp/nautilus.crt /etc/nginx/ssl/
+sudo mv /tmp/nautilus.key /etc/nginx/ssl/
+sudo chmod 600 /etc/nginx/ssl/nautilus.key
+```
+### 3️⃣ Create Web Root and Index Page
+```bash
+sudo mkdir -p /var/www/html
+echo "Welcome!" | sudo tee /var/www/html/index.html
+```
+Adjust permissions if needed:
+
+```bash
+sudo chown -R nginx:nginx /var/www/html
+```
+4️⃣ Update Nginx Configuration
+
+Edit the main config:
+```bash
+sudo nano /etc/nginx/nginx.conf
+```
+Make sure your config is inside the http block:
+```bash
+http {
+    ...
+    server {
+        listen 443 ssl;
+        server_name localhost;
+
+        ssl_certificate /etc/nginx/ssl/nautilus.crt;
+        ssl_certificate_key /etc/nginx/ssl/nautilus.key;
+
+        root /var/www/html;
+        index index.html;
+
+        location / {
+            try_files $uri $uri/ =404;
+        }
+    }
+
+    server {
+        listen 80;
+        return 301 https://$host$request_uri;
+    }
+}
+```
+### 5️⃣ Test and Restart Nginx
+
+```bash
+sudo nginx -t        # Test config
+sudo systemctl restart nginx
+sudo systemctl enable nginx
+```
+## 🔍 Validation from Jump Host
+
+On the **Jump Host**, test the HTTPS endpoint:
+
+curl -Ik https://<app-server-2-ip>
+
+Expected Output:
+```
+HTTP/1.1 200 OK
+Server: nginx/...
+Content-Type: text/html
+...
+```
+If using a self-signed cert, bypass SSL check with:
+
+curl -k https://<app-server-2-ip>
+
+## 📦 Directory Structure
+
+/etc/nginx/nginx.conf        # Main Nginx config file
+/etc/nginx/ssl/              # SSL certificate and key
+/var/www/html/index.html     # Web root with welcome page
+
+📘 Useful Commands
+# Check Nginx service
+sudo systemctl status nginx
+
+# Reload Nginx after changes
+sudo nginx -s reload
+
+# View logs if troubleshooting
+sudo tail -f /var/log/nginx/error.log
+
+## ✅ Outcome
+
+🔐 HTTPS successfully configured using a self-signed certificate
+
+🖥️ Static web page served via Nginx on port 443
+
+🧪 Verified with curl from Jump Host
