@@ -49,7 +49,7 @@ Adjust permissions if needed:
 ```bash
 sudo chown -R nginx:nginx /var/www/html
 ```
-4️⃣ Update Nginx Configuration
+### 4️⃣ Update Nginx Configuration
 
 Edit the main config:
 ```bash
@@ -111,13 +111,13 @@ curl -k https://<app-server-2-ip>
 /var/www/html/index.html     # Web root with welcome page
 
 📘 Useful Commands
-# Check Nginx service
+### Check Nginx service
 sudo systemctl status nginx
 
-# Reload Nginx after changes
+### Reload Nginx after changes
 sudo nginx -s reload
 
-# View logs if troubleshooting
+### View logs if troubleshooting
 sudo tail -f /var/log/nginx/error.log
 
 ## ✅ Outcome
