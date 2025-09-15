@@ -2,7 +2,7 @@
 
 ## ✅ Objective
 
-To configure a high-availability Load Balancer (LBR) using **Nginx** to distribute traffic across 3 Apache-based application servers, each running on a **custom port (8089)**.
+To configure a high-availability Load Balancer (LBR) using **Nginx** to distribute traffic across 3 Apache-based application servers, each running on a **custom port (5004)**.
 
 ---
 
