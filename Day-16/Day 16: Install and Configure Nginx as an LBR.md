@@ -41,6 +41,7 @@ sudo systemctl restart httpd
 3. ✅ Update Nginx Configuration
 
 Edited the main config file: /etc/nginx/nginx.conf 
+
 Full nginx.conf file look like this
 ```bash
 user nginx;
