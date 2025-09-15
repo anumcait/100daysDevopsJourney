@@ -38,3 +38,32 @@ The Nautilus application development team plans to deploy a newly developed appl
 
 ```bash
 sudo -i -u postgres
+```
+### 2. Open PostgreSQL CLI
+```bash
+psql
+```
+### 3. Create a new user with a password
+```bash
+CREATE USER kodekloud_roy WITH PASSWORD 'BruCStnMT5';
+```
+
+### 4. Create a new database
+CREATE DATABASE kodekloud_db7;
+```
+
+### 5. Grant all privileges on the database to the new user
+GRANT ALL PRIVILEGES ON DATABASE kodekloud_db7 TO kodekloud_roy;
+```
+
+### 6. Exit the PostgreSQL prompt
+\q
+
+### 🔍 Verification
+
+You can verify the setup by attempting to connect to the database as the new user:
+
+psql -U kodekloud_roy -d kodekloud_db7 -h localhost
+
+
+If connection succeeds and you can run SQL commands, the setup is successful.
