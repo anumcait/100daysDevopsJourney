@@ -29,13 +29,13 @@ sudo systemctl start nginx
 On stapp01, stapp02, and stapp03:
 ```bash
 sudo systemctl status httpd
-sudo ss -tuln | grep 8089
+sudo ss -tuln | grep 5004
 ```
 
 If Apache wasn't listening on port 8089, it was fixed by:
 
 sudo vi /etc/httpd/conf/httpd.conf
-# Changed: Listen 80 → Listen 8089
+# Changed: Listen 80 → Listen 5004
 sudo systemctl restart httpd
 
 3. ✅ Update Nginx Configuration
@@ -44,9 +44,9 @@ Edited the main config file: /etc/nginx/nginx.conf
 ```bash
 http {
     upstream backend_servers {
-        server stapp01:8089;
-        server stapp02:8089;
-        server stapp03:8089;
+        server stapp01:5004;
+        server stapp02:5004;
+        server stapp03:5004;
     }
 
     server {
@@ -69,7 +69,7 @@ sudo systemctl restart nginx
 ```
 ### 5. ✅ Validate Setup
 
-Accessed the application via StaticApp in the KodeKloud environment. Successfully served traffic through the load balancer to all App Servers running on port 8089.
+Accessed the application via StaticApp in the KodeKloud environment. Successfully served traffic through the load balancer to all App Servers running on port 5004.
 
 ### 📌 Key Learnings
 
