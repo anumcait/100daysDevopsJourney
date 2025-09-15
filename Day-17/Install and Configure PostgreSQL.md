@@ -60,7 +60,7 @@ GRANT ALL PRIVILEGES ON DATABASE kodekloud_db7 TO kodekloud_roy;
 
 ### 6. Exit the PostgreSQL prompt
 ```bash
-**\q**
+\q
 ```
 ### 🔍 Verification
 
