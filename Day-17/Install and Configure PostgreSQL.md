@@ -59,14 +59,15 @@ GRANT ALL PRIVILEGES ON DATABASE kodekloud_db7 TO kodekloud_roy;
 ```
 
 ### 6. Exit the PostgreSQL prompt
-
-`\q`
-
+```bash
+**\q**
+```
 ### 🔍 Verification
 
 You can verify the setup by attempting to connect to the database as the new user:
 
+```bash
 psql -U kodekloud_roy -d kodekloud_db7 -h localhost
-
+```
 
 If connection succeeds and you can run SQL commands, the setup is successful.
