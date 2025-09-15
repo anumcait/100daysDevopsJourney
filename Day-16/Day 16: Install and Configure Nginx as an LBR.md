@@ -32,7 +32,7 @@ sudo systemctl status httpd
 sudo ss -tuln | grep 5004
 ```
 
-If Apache wasn't listening on port 8089, it was fixed by:
+If Apache wasn't listening on port 5004, it was fixed by:
 
 sudo vi /etc/httpd/conf/httpd.conf
 # Changed: Listen 80 → Listen 5004
