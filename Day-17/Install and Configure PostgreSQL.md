@@ -49,15 +49,18 @@ CREATE USER kodekloud_roy WITH PASSWORD 'BruCStnMT5';
 ```
 
 ### 4. Create a new database
+```bash
 CREATE DATABASE kodekloud_db7;
 ```
 
 ### 5. Grant all privileges on the database to the new user
+```bash
 GRANT ALL PRIVILEGES ON DATABASE kodekloud_db7 TO kodekloud_roy;
 ```
 
 ### 6. Exit the PostgreSQL prompt
-\q
+
+`\q`
 
 ### 🔍 Verification
 
