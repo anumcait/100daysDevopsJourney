@@ -114,28 +114,18 @@ App is able to connect to the database using user kodekloud_sam
 
 ### 🚀 Skills
 
-LAMP stack deployment
-
-Multi-host configuration (App + DB separation)
-
-Apache port customization
-
-MySQL user privileges and remote access
-
-Troubleshooting PHP-MySQL integration
+- LAMP stack deployment
+- Multi-host configuration (App + DB separation)
+- Apache port customization
+- MySQL user privileges and remote access
+- Troubleshooting PHP-MySQL integration
 
 ### 📚 Tools Used
 
-CentOS / RHEL
-
-Apache HTTPD
-
-PHP
-
-MariaDB
-
-systemd / firewalld
-
-CLI tools (yum, vi, sed, mysql)
+- CentOS / RHEL
+- Apache HTTPD
+- PHP
+- MariaDB
+- CLI tools (yum, vi, sed, mysql)
 
 ##
