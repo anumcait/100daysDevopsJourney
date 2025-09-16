@@ -51,6 +51,9 @@ sudo systemctl enable httpd
 ```bash
 sudo ss -tuln | grep 6200
 ```
+
+---
+
 ## 🔹 Database Server Configuration (DB Server - stdb01)
 
 1. **Install MariaDB:**
