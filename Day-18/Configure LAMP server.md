@@ -38,12 +38,6 @@ Deploy a WordPress-ready LAMP server setup using:
 
 ```bash
 sudo yum install httpd php php-mysqlnd -y
-Configure Apache to run on port 6200:
-
-sudo sed -i 's/^Listen 80/Listen 6200/' /etc/httpd/conf/httpd.conf
-sudo sed -i 's/<VirtualHost \*:80>/<VirtualHost *:6200>/' /etc/httpd/conf/httpd.conf
-sudo systemctl restart httpd
-sudo systemctl enable httpd
 ```
 2. **Configure Apache to run on port 6200:**
 ```bash
