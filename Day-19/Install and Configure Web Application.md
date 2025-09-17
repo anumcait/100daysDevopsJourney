@@ -35,7 +35,7 @@ Listen 8088
 
 ### 3. Transfer Website Backups to the App Server
 
-**set correct permission as it won't copy otherwise will get errors: **
+**set correct permission as it won't copy otherwise will get errors:**
 
 ```bash
 sudo chown -R steve:steve /var/www/html/
