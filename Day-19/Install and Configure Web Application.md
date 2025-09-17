@@ -1,4 +1,4 @@
-## Day 19: Install and Configure Web Application 
+## Install and Configure Web Application 
 
 **Problem Statement:**
 
