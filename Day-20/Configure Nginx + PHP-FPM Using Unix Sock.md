@@ -2,7 +2,7 @@
 
 **Problem Statement**
 
-xFusionCorp Industries is planning to host two static websites on their infra in Stratos Datacenter. The development of these websites is still in-progress, but we want to get the servers ready. Please perform the following steps to accomplish the task: a. Install httpd package and dependencies on app server 2. b. Apache should serve on port 8088. c. There are two website's backups /home/thor/blog and /home/thor/demo on jump_host. Set them up on Apache in a way that blog should work on the link http://localhost:8088/blog/ and demo should work on link http://localhost:8088/demo/ on the mentioned app server. d. Once configured you should be able to access the website using curl command on the respective app server, i.e curl http://localhost:8088/blog/ and curl http://localhost:8088/demo/
+The Nautilus application development team is planning to launch a new PHP-based application, which they want to deploy on Nautilus infra in Stratos DC. The development team had a meeting with the production support team and they have shared some requirements regarding the infrastructure. Below are the requirements they shared: a. Install nginx on app server 1 , configure it to use port 8097 and its document root should be /var/www/html. b. Install php-fpm version 8.1 on app server 1, it must use the unix socket /var/run/php-fpm/default.sock (create the parent directories if don't exist). c. Configure php-fpm and nginx to work together.
 
 ---
 
