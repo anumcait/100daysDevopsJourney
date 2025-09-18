@@ -2,7 +2,13 @@
 
 **Problem Statement**
 
-The Nautilus application development team is planning to launch a new PHP-based application, which they want to deploy on Nautilus infra in Stratos DC. The development team had a meeting with the production support team and they have shared some requirements regarding the infrastructure. Below are the requirements they shared: a. Install nginx on app server 1 , configure it to use port 8097 and its document root should be /var/www/html. b. Install php-fpm version 8.1 on app server 1, it must use the unix socket /var/run/php-fpm/default.sock (create the parent directories if don't exist). c. Configure php-fpm and nginx to work together.
+The Nautilus application development team is planning to launch a new PHP-based application, which they want to deploy on Nautilus infra in Stratos DC. The development team had a meeting with the production support team and they have shared some requirements regarding the infrastructure. Below are the requirements they shared: 
+
+a. Install nginx on app server 1 , configure it to use port 8097 and its document root should be /var/www/html. 
+
+b. Install php-fpm version 8.1 on app server 1, it must use the unix socket /var/run/php-fpm/default.sock (create the parent directories if don't exist). 
+
+c. Configure php-fpm and nginx to work together.
 
 ---
 
