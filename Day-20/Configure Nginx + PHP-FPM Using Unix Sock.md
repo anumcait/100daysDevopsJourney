@@ -95,7 +95,7 @@ From your jump host or locally:
 curl http://stapp01:8097/index.php
 ```
 You should get like below screenshot
-<img width="1280" height="650" alt="image" src="https://github.com/user-attachments/assets/87df27c5-69d9-4468-9705-851cbcc16587" />
+<img width="1156" height="572" alt="image" src="https://github.com/user-attachments/assets/8851b7a7-a806-4a5e-b5b2-9a8cf3da7244" />
 
 ##
 
