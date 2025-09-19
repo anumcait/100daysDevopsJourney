@@ -7,7 +7,7 @@ kodekloud 21 day challenge The Nautilus development team has provided requiremen
 ## ✅ Task Summary
 
 Set up a Git repository on the Storage Server for the Nautilus development team as per the provided requirements.
-
+goto that server using ssh
 ---
 
 ### 1. Installed Git using `yum`:
