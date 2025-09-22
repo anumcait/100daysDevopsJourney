@@ -23,5 +23,5 @@ This is a fork of the **Sarah's Story Blog** repository. The following steps wer
 <img width="856" height="388" alt="image" src="https://github.com/user-attachments/assets/8fc4978d-7bf9-4ae8-a257-81d60966c031" />
 
 
-<img width="1418" height="617" alt="image" src="https://github.com/user-attachments/assets/917557c9-c8fd-4a82-8479-7b67f88ffb46" />
+<img width="856" height="388" alt="image" src="https://github.com/user-attachments/assets/917557c9-c8fd-4a82-8479-7b67f88ffb46" />
 
