@@ -1,4 +1,4 @@
-## Day 25: Git Merge Branches kodekloud 100days challenge
+# Day 25: Git Merge Branches kodekloud 100days challenge
 
 ### Problem Statement
 
@@ -11,7 +11,7 @@ Further, add/commit this file in the new branch and merge back that branch into 
 Finally, push the changes to the origin for both of the branches.
 
 
-# Git Merge Branches: A Step-by-Step Guide
+## Git Merge Branches: A Step-by-Step Guide
 
 This guide walks through the process of creating a new Git branch, adding a file, committing changes, and merging the branch back into `master`. The task is part of the **Nautilus Application Development Team** project repository `/opt/games.git`, cloned at `/usr/src/kodekloudrepos` on the Stratos DC storage server.
 
