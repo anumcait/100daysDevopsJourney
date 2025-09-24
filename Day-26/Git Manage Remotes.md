@@ -73,9 +73,9 @@ By following these steps, you have added a new remote, committed changes to the 
 
 ### Screenshots
 
-<img width="1050" height="524" alt="image" src="https://github.com/user-attachments/assets/d70fa6fa-a691-40c9-9d0f-15589e774593" />
+<img width="700" height="524" alt="image" src="https://github.com/user-attachments/assets/d70fa6fa-a691-40c9-9d0f-15589e774593" />
 
-<img width="1107" height="546" alt="image" src="https://github.com/user-attachments/assets/2b68ad56-c075-4009-b2b9-26a758fb1f4f" />
+<img width="700" height="546" alt="image" src="https://github.com/user-attachments/assets/2b68ad56-c075-4009-b2b9-26a758fb1f4f" />
 
 
 
