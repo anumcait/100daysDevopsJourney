@@ -12,8 +12,6 @@ b. There is a file /tmp/index.html on same server; copy this file to the repo an
 
 c. Finally push master branch to this new remote origin.
 
-# Git Manage Remotes - KodeKloud 100 Days Challenge
-
 ## Task Overview
 
 The xFusionCorp development team recently updated the project maintained under `/opt/blog.git` and cloned to `/usr/src/kodekloudrepos/blog`. The DevOps team added new Git remotes on the Git server hosted on the Storage server in Stratos DC. We need to update the remotes for the `/usr/src/kodekloudrepos/blog` repository as per the following steps:
