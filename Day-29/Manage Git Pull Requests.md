@@ -1,6 +1,6 @@
-# 🚀 Day 29: Manage Git Pull Requests – KodeKloud 100 Days Challenge
+# 🚀 Day 29: Manage Git Pull Requests
 
-Problem Statement : Max want to push some new changes to one of the repositories but we don't want people to push directly to master branch, since that would be the final version of the code. 
+**Problem Statement :** Max want to push some new changes to one of the repositories but we don't want people to push directly to master branch, since that would be the final version of the code. 
 
 It should always only have content that has been reviewed and approved. We cannot just allow everyone to directly push to the master branch. So, let's do it the right way as discussed below: 
 
