@@ -1,6 +1,8 @@
 # 🚀 Day 29: Manage Git Pull Requests
 
-**Problem Statement :** Max want to push some new changes to one of the repositories but we don't want people to push directly to master branch, since that would be the final version of the code. 
+**Problem Statement :** 
+
+Max want to push some new changes to one of the repositories but we don't want people to push directly to master branch, since that would be the final version of the code. 
 
 It should always only have content that has been reviewed and approved. We cannot just allow everyone to directly push to the master branch. So, let's do it the right way as discussed below: 
 
@@ -114,11 +116,11 @@ Switch to the master branch in Gitea UI and confirm:
 
 ### Screenshots
 
-<img width="1050" height="534" alt="image" src="https://github.com/user-attachments/assets/1805f972-5e2a-4aff-a29c-5a8ec8fe8544" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/1805f972-5e2a-4aff-a29c-5a8ec8fe8544" />
 
-<img width="1050" height="467" alt="image" src="https://github.com/user-attachments/assets/5fbaf7f9-69f3-40f3-a27c-e6cd4a037b3b" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/5fbaf7f9-69f3-40f3-a27c-e6cd4a037b3b" />
 
-<img width="1050" height="422" alt="image" src="https://github.com/user-attachments/assets/18a505d2-07a4-495d-9433-02542229f1e3" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/18a505d2-07a4-495d-9433-02542229f1e3" />
 
 
 
