@@ -15,6 +15,20 @@ Further, commit and push your changes to the origin.
 
 ## Solution
 
+**A little Explaination about git stash:**
+Imagine you’re a **student** working on a homework assignment. You’ve started, but then you suddenly realize you need to take a break to help a friend or maybe switch to another subject. Instead of leaving your homework unfinished or scattered, you decide to **put it away in a drawer.**
+
+Now, your homework is safe, and you can focus on something else without losing your progress. When you’re ready to continue your homework, you simply **open the drawer**, pull it out, and **continue right where you left off**—without missing a beat.
+
+### How This Relates to Git:
+
+**Git Stash** = **The “drawer” where you store unfinished homework**. It temporarily holds your work while you focus on something else.
+
+**Commit** = **Turning in your completed homework after finishing it**. Now, it’s saved and ready to be graded.
+
+**Push** = **Sharing your completed homework** with the teacher (or in Git's case, pushing to a remote repository).
+
+
 To accomplish the task of restoring the stashed changes, committing, and pushing them to the origin, follow these steps:
 
 ## Step-by-Step Instructions:
