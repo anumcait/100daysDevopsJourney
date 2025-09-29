@@ -29,6 +29,7 @@ Now, your homework is safe, and you can focus on something else without losing y
 
 **Push** = **Sharing your completed homework** with the teacher (or in Git's case, pushing to a remote repository).
 
+---
 
 To accomplish the task of restoring the stashed changes, committing, and pushing them to the origin, follow these steps:
 
