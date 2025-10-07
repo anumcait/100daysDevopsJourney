@@ -44,7 +44,7 @@ You should see an entry for busybox with both the tags busybox:musl and busybox:
 ### Summary of Commands
 
 - Log into App Server 3:
-    - ssh user@app-server-3.stratos-dc
+    - ssh banner@stapp03
 - Pull busybox:musl Image:
     - docker pull busybox:musl
 - Re-tag the Image:
