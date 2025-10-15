@@ -78,9 +78,9 @@ Successfully tagged my-httpd-app:latest
 Once confirmed working, you can safely hit FINISH per the instructions.
 
 ## Screen shots
-<img width="1050" height="519" alt="image" src="https://github.com/user-attachments/assets/e147fe18-a99e-4c14-b470-b320078f2af9" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/e147fe18-a99e-4c14-b470-b320078f2af9" />
 
-<img width="1050" height="529" alt="image" src="https://github.com/user-attachments/assets/6ab71720-61df-4125-8222-9c892ea25a9b" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6ab71720-61df-4125-8222-9c892ea25a9b" />
 
 
 
