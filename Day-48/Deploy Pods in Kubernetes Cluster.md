@@ -73,9 +73,9 @@ kubectl delete pod pod-httpd
 ```
 
 ### Screenshots
-<img width="1050" height="522" alt="image" src="https://github.com/user-attachments/assets/3456c940-d1cf-4080-8664-bcc57f4b8a76" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/3456c940-d1cf-4080-8664-bcc57f4b8a76" />
 
-<img width="1050" height="528" alt="image" src="https://github.com/user-attachments/assets/5fb68275-6469-4478-8bc7-11506db9a41a" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5fb68275-6469-4478-8bc7-11506db9a41a" />
 
 
 
