@@ -33,9 +33,11 @@ kubectl rollout history deployment nginx-deployment
 You should see output similar to:
 
 deployment.apps/nginx-deployment 
-REVISION  CHANGE-CAUSE
-1         <none>
-2         kubectl set image deployment nginx-deployment nginx-container=nginx:stable --kubeconfig=/root/.ku
+
+| REVISION | CHANGE-CAUSE                                                                 |
+|----------|------------------------------------------------------------------------------|
+| 1        | <none>                                                                       |
+| 2        | kubectl set image deployment nginx-deployment nginx-container=nginx:stable   |
 
 ## ⏪ Step 2: Roll Back to the Previous Revision
 
