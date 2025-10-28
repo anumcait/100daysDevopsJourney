@@ -1,5 +1,7 @@
 # Day 57: Print Environment Variables
 
+## Problem Statement
+```
 The Nautilus DevOps team is working on to setup some pre-requisites for an application that will send the greetings to different users. There is a sample deployment, that needs to be tested. Below is a scenario which needs to be configured on Kubernetes cluster. Please find below more details about it.
 
 
@@ -21,7 +23,7 @@ You can check the output using kubectl logs -f print-envars-greeting command.
 
 
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
-
+```
 
 ## Task Requirements
 
@@ -88,7 +90,7 @@ Welcome to DevOps Group
 
 ## Screenshot
 
-<img width="2500" height="1266" alt="image" src="https://github.com/user-attachments/assets/cea09bfe-9739-49d5-97ff-46cf8ad2f751" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/cea09bfe-9739-49d5-97ff-46cf8ad2f751" />
 
 
 
