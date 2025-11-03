@@ -1,6 +1,6 @@
 # Day 62: Manage Secrets in Kubernetes
 
-Problem Statement:
+**Problem Statement:**
 The Nautilus DevOps team is working to deploy some tools in Kubernetes cluster. Some of the tools are licence based so that licence information needs to be stored securely within Kubernetes cluster. Therefore, the team wants to utilize Kubernetes secrets to store those secrets. Below you can find more details about the requirements:
 
 We already have a secret key file blog.txt under /opt location on jump host. Create a generic secret named blog, it should contain the password/license-number present in blog.txt file.
@@ -139,3 +139,10 @@ In this task, you learned to:
 - Create Kubernetes Secrets from files.
 - Mount secrets as volumes into containers.
 - Verify and manage secret-based configurations securely.
+
+
+## Screenshots
+
+<img width="700" height="500" alt="Screenshot 2025-11-03 211901" src="https://github.com/user-attachments/assets/35388dce-6a57-4699-83f9-650027a8adda" />
+
+
