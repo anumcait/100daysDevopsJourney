@@ -14,9 +14,6 @@ Note:
 ```
 ---
 
-# Day 71 – Configure Jenkins Job for Package Installation
-**KodeKloud 100 Days of DevOps Challenge**
-
 This task focuses on creating a Jenkins job that automatically installs packages on the Storage Server inside the Stratos Datacenter. The job must take a package name as a parameter and install it remotely via SSH.
 
 ---
