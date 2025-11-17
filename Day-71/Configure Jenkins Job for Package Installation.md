@@ -57,11 +57,12 @@ This task focuses on creating a Jenkins job that automatically installs packages
 ```bash
 echo "Installing package: $PACKAGE on storage server"
 
-sshpass -p 'Stor@ge!23' ssh -o StrictHostKeyChecking=no natasha@ststor01 "
-  echo 'Stor@ge!23' | sudo -S yum install -y $PACKAGE 2>/dev/null || \
-  echo 'Stor@ge!23' | sudo -S apt-get install -y $PACKAGE 2>/dev/null
+sshpass -p '<Password> ssh -o StrictHostKeyChecking=no natasha@ststor01 "
+  echo '<Password>' | sudo -S yum install -y $PACKAGE 2>/dev/null || \
+  echo '<Password>' | sudo -S apt-get install -y $PACKAGE 2>/dev/null
 "
 ```
+| **Note : Here password should be exact password that given in the lis of servers from KodeKloud**
 
 ---
 
