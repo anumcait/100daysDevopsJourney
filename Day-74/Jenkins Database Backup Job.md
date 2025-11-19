@@ -1,4 +1,4 @@
-#Day-74 : Jenkins Database Backup Job
+# Day-74 : Jenkins Database Backup Job
 
 ## Goal:
 Automate MySQL backups from a DB server (stdb01) to a backup server (stbkp01) using Jenkins, either with sshpass or SSH keys.
