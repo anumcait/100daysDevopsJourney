@@ -1,5 +1,4 @@
-Day 78: Jenkins Conditional Pipeline
-
+# Day 78: Jenkins Conditional Pipeline
 ```
 The development team of xFusionCorp Industries is working on to develop a new static website and they are planning to deploy the same on Nautilus App Servers using Jenkins pipeline. They have shared their requirements with the DevOps team and accordingly we need to create a Jenkins pipeline job. Please find below more details about the task:
 
@@ -45,8 +44,6 @@ For these kind of scenarios requiring changes to be done in a web UI, please tak
 ---
 
 # xFusionCorp Web App Deployment using Jenkins Pipeline
-
-## Day 78: Jenkins Conditional Pipeline - 100 Days DevOps Challenge
 
 This document outlines the step-by-step process to deploy the `web_app` repository to Nautilus App Servers using a Jenkins conditional pipeline.
 
