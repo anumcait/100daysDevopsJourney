@@ -87,7 +87,7 @@ Save configuration.
 
 ---
 
-4. Create Jenkins Pipeline Job
+## 4. Create Jenkins Pipeline Job
 
 Navigate: New Item → Pipeline
 
@@ -147,7 +147,7 @@ pipeline {
 }
 
 ```
-Notes:
+**Notes:**
 
 git reset --hard ensures local changes do not block the branch switch.
 
