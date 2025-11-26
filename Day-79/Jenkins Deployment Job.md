@@ -1,6 +1,4 @@
-Day-79: Jenkins Deployment Job
-
-# Jenkins Deployment Job – Nautilus App
+# Day-79: Jenkins Deployment Job
 
 This guide provides step-by-step instructions to configure Jenkins for auto-deployment of the `web` repository from Gitea to the Storage Server under `/var/www/html`.
 
