@@ -82,3 +82,9 @@ stapp02                    : ok=3    changed=2    unreachable=0    failed=0    s
 
 ### screenshots
 
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/9b4c0c44-bda9-46ff-b748-29fab75d2b78" />
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0ec3f4f5-a930-44a6-82b1-c0f9ab7185bb" />
+
+
+
