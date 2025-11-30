@@ -37,12 +37,12 @@ Run the following command to create the file:
 nano ~/playbook/inventory
 ```
 Add the following content to the file:
-
+```
 [appservers]
 stapp01 ansible_host=stapp01 ansible_ssh_pass=<<Password>> file_owner=tony
 stapp02 ansible_host=stapp02 ansible_ssh_pass=<<Password>> file_owner=steve
 stapp03 ansible_host=stapp03 ansible_ssh_pass=<<Password>> file_owner=banner
-
+```
 ---
 
 ### 2. Create the Playbook File
