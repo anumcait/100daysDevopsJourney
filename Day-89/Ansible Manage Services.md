@@ -102,10 +102,19 @@ ansible-playbook -i inventory playbook.yml
 
 If everything is correct:
 
-httpd will be installed on all app servers
+- httpd will be installed on all app servers
+- The service will be enabled and running
+- The playbook will run successfully without passing any extra arguments
+- Validation in the KodeKloud game will pass
 
-The service will be enabled and running
+---
 
-The playbook will run successfully without passing any extra arguments
+### Screenshots
 
-Validation in the KodeKloud game will pass
+<img width="500" height="300" alt="Screenshot 2025-12-02 203734" src="https://github.com/user-attachments/assets/baa1a42d-db7b-46b3-aca9-67744663514b" />
+
+<img width="500" height="300" alt="Screenshot 2025-12-02 203720" src="https://github.com/user-attachments/assets/de1c1c72-5289-4cf1-a734-5f55aafb97f2" />
+
+<img width="500" height="300" alt="Screenshot 2025-12-02 203842" src="https://github.com/user-attachments/assets/ff3656cb-9a60-4e37-946d-406789de5058" />
+
+
