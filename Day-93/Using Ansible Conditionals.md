@@ -1,5 +1,4 @@
-# Day 93: Using Ansible Conditionals - KodeKloud 100 Days DevOps Challenge
-
+# Day 93: Using Ansible Conditionals
 This guide documents how to use **Ansible conditionals** to copy files to specific servers with different ownership and permissions.
 
 ---
