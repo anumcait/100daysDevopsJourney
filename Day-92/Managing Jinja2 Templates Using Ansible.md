@@ -55,7 +55,7 @@ Add:
 ```
 ansible-playbook -i inventory playbook.yml
 ```
-Screenshots:
+### Screenshots:
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ba11c2b8-dc3b-4780-b385-489606348c79" />
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f9301214-0f7f-4d3b-ba00-e800a24aa78e" />
