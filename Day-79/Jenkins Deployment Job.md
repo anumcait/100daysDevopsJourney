@@ -122,7 +122,7 @@ Jenkins job should trigger automatically and deploy the new content to /var/www/
 
 ## Step 8 – Verify Deployment
 
-Open App → https://<LBR-URL>
+Open App → https://LBR-URL
 
 Ensure latest index.html content is visible.
 
