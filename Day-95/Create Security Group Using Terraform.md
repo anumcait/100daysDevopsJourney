@@ -1,6 +1,4 @@
 # Day 95 – Create AWS Security Group Using Terraform  
-## Step-by-Step Guide (RAW Markdown)
-
 ---
 
 ## Task Overview
